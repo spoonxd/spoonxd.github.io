@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="My personal portfolio site which acts like a business card. Coded with HTML5, CSS, JS and Open Source-d at Github.">
+    <meta name="keywords" content="eric,trenkel,js,html,github,compose,docker,flutter,web,development,developer">
+    <meta name="author" content="Eric Trenkel">
+
+    <title>Eric Trenkel</title>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/github.css" />
+    <link rel="stylesheet" type="text/css" href="css/donation.css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet" />
+
+    <!-- Analytics -->
+    <script async defer data-domain="erictrenkel.com" src="https://analytics.bostrot.com/js/plausible.js"></script>
+    <script>
+        window.plausible = window.plausible || function () {
+            (window.plausible.q = window.plausible.q || []).push(arguments)
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Body -->
+    <div class="container">
+        <div class="card profile">
+            <img src="img/logo.png" alt="Avatar Eric">
+            <h1>Eric Trenkel</h1>
+            <p class="short_desc">Enthusiastic software developer from Aachen - Germany</p>
+            <div class="bio grid-container">
+                <div class="grid-item-start">
+                    <h1>I code with</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>NodeJs</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>Flutter</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>C++</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>Docker</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>Compose</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>MongoDB</h1>
+                </div>
+                <div class="grid-item">
+                    <h1>HTML5</h1>
+                </div>
+            </div>
+            <div class="icon-area">
+                <a href="https://stackoverflow.com/users/5237072/bostrot" onclick="plausible('stackoverflow')"
+                    target="_blank"><i class="fab fa-stack-overflow fa-3x"></i></a>
+                <a href="https://twitter.com/bostrot_" onclick="plausible('twitter')" target="_blank"><i
+                        class="fab fa-twitter fa-3x"></i></a>
+                <a href="https://senpai.club/" onclick="plausible('blog')" target="_blank"><i
+                        class="fas fa-rss-square fa-3x"></i></a>
+                <a href="https://github.com/bostrot" onclick="plausible('github')" target="_blank"><i
+                        class="fab fa-github fa-3x"></i></a>
+                <a href="https://linkedin.com/in/erictrenkel" onclick="plausible('linkedin')" target="_blank"><i
+                        class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://gitlab.com/bostrot" onclick="plausible('gitlab')" target="_blank"><i
+                        class="fab fa-gitlab fa-3x"></i></a>
+                <a href="https://discord.gg/fZvGq3D" onclick="plausible('discord')" target="_blank"><i
+                        class="fab fa-discord fa-3x"></i></a>
+            </div>
+        </div>
+        <div id="github_projects" class="card">
+            Loading...
+        </div>
+        <div class="card">
+            <p class="nomargin">I love dynamic sites. <a id="donate" onclick="plausible('donate');">Want to help me?</a>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Created with &hearts; by Eric
+        </p>
+        <p>
+            Contact me at <a href="mailto:web@bostrot.com" onclick="plausible('mail')">web@bostrot.com</a> or
+            <a href="http://t.me/bostrot_bot" onclick="plausible('telegram')">on Telegram</a>
+        </p>
+        <p>
+            <a href="/privacy.html" onclick="plausible('privacy')">Privacy</a> |
+            <a href="/chat.html" onclick="plausible('chat')">Chat</a>
+        </p>
+        <p>
+            &copy; 2019-2022 erictrenkel.com
+        </p>
+        <!-- JS Imports -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/slide.js"></script>
+        <script src="js/github.js"></script>
+        <script src="js/donation.js"></script>
+    </footer>
+</body>
+
+</html>
